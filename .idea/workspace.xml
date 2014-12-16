@@ -13,10 +13,10 @@
     <file path="/Developer/getremotejobs/job_board/config/routes.rb" changelist="a5f66c68-d9b1-48e4-aafd-5db9ac6331f4" time="1418317366902" ignored="false" />
     <file path="/pages_controller.rb" changelist="a5f66c68-d9b1-48e4-aafd-5db9ac6331f4" time="1418140574197" ignored="false" />
     <file path="/about.html.erb" changelist="a5f66c68-d9b1-48e4-aafd-5db9ac6331f4" time="1418140648606" ignored="false" />
-    <file path="/Gemfile" changelist="a5f66c68-d9b1-48e4-aafd-5db9ac6331f4" time="1418142968800" ignored="false" />
+    <file path="/Gemfile" changelist="a5f66c68-d9b1-48e4-aafd-5db9ac6331f4" time="1418754707399" ignored="false" />
     <file path="/bootstrap_and_customization.css.scss" changelist="a5f66c68-d9b1-48e4-aafd-5db9ac6331f4" time="1418753109159" ignored="false" />
     <file path="/application.html.erb" changelist="a5f66c68-d9b1-48e4-aafd-5db9ac6331f4" time="1418753412060" ignored="false" />
-    <file path="/Developer/getremotejobs/job_board/Gemfile" changelist="a5f66c68-d9b1-48e4-aafd-5db9ac6331f4" time="1418319279697" ignored="false" />
+    <file path="/Developer/getremotejobs/job_board/Gemfile" changelist="a5f66c68-d9b1-48e4-aafd-5db9ac6331f4" time="1418754709670" ignored="false" />
     <file path="/Developer/getremotejobs/job_board/app/assets/stylesheets/bootstrap_and_custom.css.scss" changelist="a5f66c68-d9b1-48e4-aafd-5db9ac6331f4" time="1418752133653" ignored="false" />
     <file path="/Developer/getremotejobs/job_board/app/views/layouts/application.html.erb" changelist="a5f66c68-d9b1-48e4-aafd-5db9ac6331f4" time="1418751570740" ignored="false" />
     <file path="/Developer/getremotejobs/job_board/app/views/pages/post.html.erb" changelist="a5f66c68-d9b1-48e4-aafd-5db9ac6331f4" time="1418317306598" ignored="false" />
@@ -44,10 +44,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="application.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="18" selection-start="48" selection-end="48" vertical-scroll-proportion="0.05033557">
+            <state line="19" column="84" selection-start="453" selection-end="453" vertical-scroll-proportion="-11.875">
               <folding />
             </state>
           </provider>
@@ -73,10 +73,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="20" selection-start="534" selection-end="534" vertical-scroll-proportion="0.0">
+            <state line="20" column="70" selection-start="416" selection-end="416" vertical-scroll-proportion="0.3267974">
               <folding />
             </state>
           </provider>
@@ -150,7 +150,6 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/app/controllers/pages_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/pages/about.html.erb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/views/layouts/_header.html.erb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
@@ -158,6 +157,7 @@
         <option value="$PROJECT_DIR$/app/views/pages/books.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/bootstrap_and_customization.css.scss" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
       </list>
     </option>
   </component>
@@ -721,13 +721,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="20" selection-start="534" selection-end="534" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -795,7 +788,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="18" selection-start="48" selection-end="48" vertical-scroll-proportion="0.05033557">
+        <state line="19" column="84" selection-start="453" selection-end="453" vertical-scroll-proportion="-11.875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="70" selection-start="416" selection-end="416" vertical-scroll-proportion="0.3267974">
           <folding />
         </state>
       </provider>
