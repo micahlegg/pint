@@ -1,13 +1,10 @@
- $body-bg: #34495e;
+ //#$body-bg: #34495e;
 
 @import 'bootstrap';
 
-.main-bg {
-  background: url('/assets/bookshelf.jpg') no-repeat 50% 50% fixed;
-  background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  -webkit-background-size: cover;
-  padding-bottom: 25px;
-}
+ .main-bg {
+   background-image:url("bookshelf.jpg");
+   background-size: cover;
+ }
+
 
