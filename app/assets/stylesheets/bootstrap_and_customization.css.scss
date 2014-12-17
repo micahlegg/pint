@@ -3,7 +3,7 @@
 @import 'bootstrap';
 
  .main-bg {
-   background-image:url("bookshelf.jpg");
+   background-image:asset-data-url("bookshelf.jpg");
    background-size: cover;
  }
 
