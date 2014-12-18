@@ -33,7 +33,12 @@
     <file path="/application.rb" changelist="a5f66c68-d9b1-48e4-aafd-5db9ac6331f4" time="1418773378882" ignored="false" />
     <file path="/new.html.erb" changelist="a5f66c68-d9b1-48e4-aafd-5db9ac6331f4" time="1418922882348" ignored="false" />
     <file path="/edit.html.erb" changelist="a5f66c68-d9b1-48e4-aafd-5db9ac6331f4" time="1418923231682" ignored="false" />
-    <file path="/_form.html.erb" changelist="a5f66c68-d9b1-48e4-aafd-5db9ac6331f4" time="1418922498174" ignored="false" />
+    <file path="/_form.html.erb" changelist="a5f66c68-d9b1-48e4-aafd-5db9ac6331f4" time="1418929704937" ignored="false" />
+    <file path="/index.html.erb" changelist="a5f66c68-d9b1-48e4-aafd-5db9ac6331f4" time="1418932815926" ignored="false" />
+    <file path="/pin.rb" changelist="a5f66c68-d9b1-48e4-aafd-5db9ac6331f4" time="1418930363779" ignored="false" />
+    <file path="/user.rb" changelist="a5f66c68-d9b1-48e4-aafd-5db9ac6331f4" time="1418930389753" ignored="false" />
+    <file path="/pins_controller.rb" changelist="a5f66c68-d9b1-48e4-aafd-5db9ac6331f4" time="1418932645269" ignored="false" />
+    <file path="/show.html.erb" changelist="a5f66c68-d9b1-48e4-aafd-5db9ac6331f4" time="1418932988123" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,37 +58,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="bootstrap_and_customization.css.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/bootstrap_and_customization.css.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="4" selection-start="27" selection-end="144" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pages_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/pages_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pins_controller.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="pins_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/pins_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="45" selection-start="264" selection-end="264" vertical-scroll-proportion="0.23910733">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/routes.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="17" selection-start="50" selection-end="50" vertical-scroll-proportion="0.0">
+            <state line="16" column="10" selection-start="363" selection-end="363" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -92,7 +70,7 @@
       <file leaf-file-name="new.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/pins/new.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="116" vertical-scroll-proportion="-0.0">
+            <state line="11" column="34" selection-start="289" selection-end="289" vertical-scroll-proportion="-6.875">
               <folding />
             </state>
           </provider>
@@ -107,10 +85,46 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="user.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="17" selection-start="281" selection-end="281" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="20141218163612_create_pins.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20141218163612_create_pins.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="4" selection-start="152" selection-end="152" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="20141218192307_add_user_id_to_pins.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20141218192307_add_user_id_to_pins.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/pins/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="18" column="42" selection-start="342" selection-end="375" vertical-scroll-proportion="-11.25">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="show.html.erb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/pins/show.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="4" selection-start="249" selection-end="249" vertical-scroll-proportion="0.17993458">
               <folding />
             </state>
           </provider>
@@ -119,25 +133,16 @@
       <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/pins/_form.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="16" selection-start="512" selection-end="512" vertical-scroll-proportion="-11.875">
+            <state line="22" column="22" selection-start="559" selection-end="559" vertical-scroll-proportion="-13.75">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/pages/home.html.erb">
+      <file leaf-file-name="pin.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/pin.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="22" selection-start="48" selection-end="48" vertical-scroll-proportion="-1.25">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="new.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/devise/sessions/new.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="3" selection-start="117" selection-end="117" vertical-scroll-proportion="-2.5">
+            <state line="3" column="27" selection-start="56" selection-end="56" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -153,11 +158,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/config/environments/development.rb" />
-        <option value="$PROJECT_DIR$/config/environments/production.rb" />
-        <option value="$PROJECT_DIR$/config/application.rb" />
-        <option value="$PROJECT_DIR$/app/views/devise/registrations/new.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/devise/sessions/new.html.erb" />
         <option value="$PROJECT_DIR$/app/views/devise/passwords/new.html.erb" />
         <option value="$PROJECT_DIR$/app/views/devise/registrations/edit.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_header.html.erb" />
@@ -165,16 +165,21 @@
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/scaffolds.css.scss" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/bootstrap_and_customization.css.scss" />
-        <option value="$PROJECT_DIR$/app/views/pins/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/views/pins/new.html.erb" />
         <option value="$PROJECT_DIR$/app/views/pins/edit.html.erb" />
         <option value="$PROJECT_DIR$/app/views/pages/home.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/pins/_form.html.erb" />
+        <option value="$PROJECT_DIR$/app/models/pin.rb" />
+        <option value="$PROJECT_DIR$/app/models/user.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/pins_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/pins/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/pins/show.html.erb" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1025" />
-    <option name="y" value="200" />
+    <option name="x" value="1112" />
+    <option name="y" value="228" />
     <option name="width" value="1298" />
     <option name="height" value="1089" />
   </component>
@@ -255,6 +260,10 @@
               <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -271,10 +280,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -587,7 +592,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1025" y="200" width="1298" height="1089" extended-state="0" />
+    <frame x="1112" y="228" width="1298" height="1089" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -671,41 +676,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/_header.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="55" selection-start="719" selection-end="719" vertical-scroll-proportion="-8.75">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/pages.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="1" selection-start="176" selection-end="176" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="8" selection-start="635" selection-end="635" vertical-scroll-proportion="-13.75">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20141218163612_create_pins.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20141216234642_devise_create_users.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/scaffolds.css.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -720,23 +690,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/pages_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="17" selection-start="50" selection-end="50" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/pins/_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="16" selection-start="512" selection-end="512" vertical-scroll-proportion="-11.875">
           <folding />
         </state>
       </provider>
@@ -748,9 +704,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/pins/new.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/pages/home.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="116" vertical-scroll-proportion="-0.0">
+        <state line="2" column="22" selection-start="48" selection-end="48" vertical-scroll-proportion="-1.25">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/pages_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -762,23 +725,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/pins/index.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/pins/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="22" selection-start="559" selection-end="559" vertical-scroll-proportion="-13.75">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/pin.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="27" selection-start="56" selection-end="56" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="17" selection-start="281" selection-end="281" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20141218163612_create_pins.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="4" selection-start="152" selection-end="152" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20141218192307_add_user_id_to_pins.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/pages/home.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/pins_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="22" selection-start="48" selection-end="48" vertical-scroll-proportion="-1.25">
+        <state line="16" column="10" selection-start="363" selection-end="363" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/pins_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/pins/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="45" selection-start="264" selection-end="264" vertical-scroll-proportion="0.23910733">
+        <state line="11" column="34" selection-start="289" selection-end="289" vertical-scroll-proportion="-6.875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/pins/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="42" selection-start="342" selection-end="375" vertical-scroll-proportion="-11.25">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/pins/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="4" selection-start="249" selection-end="249" vertical-scroll-proportion="0.17993458">
           <folding />
         </state>
       </provider>
