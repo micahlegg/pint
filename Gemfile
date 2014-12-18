@@ -13,6 +13,7 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
 gem 'rails_12factor', group: :production
 gem 'devise', '~> 3.4.1'
+gem 'paperclip', '~> 4.2'
 
 group :development, :test do
   gem 'sqlite3'
