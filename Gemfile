@@ -15,7 +15,6 @@ gem 'rails_12factor', group: :production
 gem 'devise', '~> 3.4.1'
 gem 'paperclip', '~> 4.2'
 gem 'aws-sdk', '~> 1.60.1'
-gem 'nokogiri', '~> 1.6.5'
 
 group :development, :test do
   gem 'sqlite3'
